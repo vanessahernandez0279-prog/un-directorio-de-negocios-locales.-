@@ -1,0 +1,22 @@
+------------------------------------------------
+| Logo         Directorio de Negocios Locales |
+------------------------------------------------
+
+[Todos] [Comida] [Ferreterías] [Papelerías]
+
+------------------------------------------------
+| Imagen del negocio                          |
+| Tacos El Güero                             |
+| Categoría: Comida                          |
+| Dirección: Centro, Querétaro               |
+| Tel: 4421234567                            |
+| [Llamar] [WhatsApp]                        |
+------------------------------------------------
+
+------------------------------------------------
+| Imagen del negocio                          |
+| Ferretería San Juan                        |
+| Categoría: Ferretería                      |
+| Dirección: Av. Principal                   |
+| [Llamar] [WhatsApp]                        |
+------------------------------------------------
