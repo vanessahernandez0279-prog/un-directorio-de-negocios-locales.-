@@ -1,0 +1,21 @@
+function filtrar(categoria){
+
+    let negocios = document.querySelectorAll(".negocio");
+
+    negocios.forEach(negocio => {
+
+        if(categoria === "todos"){
+            negocio.style.display = "block";
+        }
+
+        else if(negocio.classList.contains(categoria)){
+            negocio.style.display = "block";
+        }
+
+        else{
+            negocio.style.display = "none";
+        }
+
+    });
+
+}
