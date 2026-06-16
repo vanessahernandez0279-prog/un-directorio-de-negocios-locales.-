@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio de Negocios Locales</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>Directorio de Negocios Locales</h1>
+</header>
+
+<div class="filtros">
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('comida')">Comida</button>
+    <button onclick="filtrar('ferreteria')">Ferreterías</button>
+    <button onclick="filtrar('papeleria')">Papelerías</button>
+</div>
+
+<div class="contenedor">
+
+    <div class="negocio comida">
+        <img src="https://via.placeholder.com/300x200" alt="Comida">
+        <h2>Tacos El Güero</h2>
+        <p>Categoría: Comida</p>
+        <p>Centro, Querétaro</p>
+
+        <a href="tel:4421234567" class="llamar">
+            Llamar Ahora
+        </a>
+
+        <a href="https://wa.me/524421234567" target="_blank" class="whatsapp">
+            WhatsApp
+        </a>
+    </div>
+
+    <div class="negocio ferreteria">
+        <img src="https://via.placeholder.com/300x200" alt="Ferretería">
+        <h2>Ferretería San Juan</h2>
+        <p>Categoría: Ferretería</p>
+        <p>Av. Principal</p>
+
+        <a href="tel:4427654321" class="llamar">
+            Llamar Ahora
+        </a>
+
+        <a href="https://wa.me/524427654321" target="_blank" class="whatsapp">
+            WhatsApp
+        </a>
+    </div>
+
+    <div class="negocio papeleria">
+        <img src="https://via.placeholder.com/300x200" alt="Papelería">
+        <h2>Papelería Escolar</h2>
+        <p>Categoría: Papelería</p>
+        <p>Colonia Centro</p>
+
+        <a href="tel:4421112233" class="llamar">
+            Llamar Ahora
+        </a>
+
+        <a href="https://wa.me/524421112233" target="_blank" class="whatsapp">
+            WhatsApp
+        </a>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
